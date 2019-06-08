@@ -1,0 +1,8 @@
+[Unit]
+Description=webchain mining
+
+[Service]
+ExecStart=/XMRIG-WEBCHAIN/webchain-miner/webchain-miner -o web-ko1.gonspool.com:3332 -u 0xad8d92bb1c525648021eb46ebafc8ef3f2bd8a7c -p x
+
+[Install]
+WantedBy=multi-user.target

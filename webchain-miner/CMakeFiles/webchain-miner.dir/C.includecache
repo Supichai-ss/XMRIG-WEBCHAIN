@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/webchain-miner/src/crypto/Lyra2.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+Lyra2.h
+/home/ubuntu/webchain-miner/src/crypto/Lyra2.h
+Sponge.h
+/home/ubuntu/webchain-miner/src/crypto/Sponge.h
+
+/home/ubuntu/webchain-miner/src/crypto/Lyra2.h
+stdint.h
+-
+
+/home/ubuntu/webchain-miner/src/crypto/Sponge.c
+string.h
+-
+stdio.h
+-
+time.h
+-
+Sponge.h
+/home/ubuntu/webchain-miner/src/crypto/Sponge.h
+Lyra2.h
+/home/ubuntu/webchain-miner/src/crypto/Lyra2.h
+
+/home/ubuntu/webchain-miner/src/crypto/Sponge.h
+stdint.h
+-
+

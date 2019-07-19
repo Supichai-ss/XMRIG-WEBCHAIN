@@ -12,4 +12,25 @@ chmod +x XMRIG-WEBCHAIN/xmrrig/xmrig
 mv /XMRIG-WEBCHAIN/limits.conf /etc/security/limits.conf -f
 mv /XMRIG-WEBCHAIN/webchain.service  /etc/systemd/system/webchain.service 
 systemctl start webchain.service
-systemctl enable webchain.service 
+systemctl enable webchain.service
+
+--------------------------------------------------------
+#!/bin/bash
+
+# Initial updates
+apt-get update -y
+
+# Install Stuff
+apt-get install -y libmicrohttpd-dev gcc-7 g++-7
+sysctl -w vm.nr_hugepages=128
+
+# GIT
+git clone https://github.com/Supichai-ss/XMRIG-WEBCHAIN XMRIG-WEBCHAIN
+chmod +x XMRIG-WEBCHAIN/webchain-miner/webchain-miner
+chmod +x XMRIG-WEBCHAIN/xmrrig/xmrig
+
+#Services
+mv /XMRIG-WEBCHAIN/limits.conf /etc/security/limits.conf -f
+mv /XMRIG-WEBCHAIN/webchain.service  /etc/systemd/system/webchain.service 
+systemctl start webchain.service
+systemctl enable webchain.service

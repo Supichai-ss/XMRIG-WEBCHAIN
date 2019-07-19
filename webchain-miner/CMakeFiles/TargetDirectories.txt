@@ -1,6 +1,0 @@
-/home/ubuntu/webchain-miner/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/webchain-miner/build/CMakeFiles/webchain-miner.dir
-/home/ubuntu/webchain-miner/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/webchain-miner/build/src/3rdparty/libcpuid/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/webchain-miner/build/src/3rdparty/libcpuid/CMakeFiles/cpuid.dir
-/home/ubuntu/webchain-miner/build/src/3rdparty/libcpuid/CMakeFiles/edit_cache.dir

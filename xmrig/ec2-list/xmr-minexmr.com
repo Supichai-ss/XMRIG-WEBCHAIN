@@ -1,8 +1,0 @@
-[Unit]
-Description=webchain mining
-
-[Service]
-ExecStart=/XMRIG-WEBCHAIN/xmrig/xmrig -o us-west.minexmr.com:4444 -u 44RFS7VxZSF29rjA6bx9poKKUexgxXg1gEtDDeCP63ffJ9Q1yMyg2mVZZLqPAYjnpC6wPh8qfNWMgaiFpCbXGbRaSrVFgj7 -k --randomx-1gb-pages -t 4 --rig-id test
-
-[Install]
-WantedBy=multi-user.target

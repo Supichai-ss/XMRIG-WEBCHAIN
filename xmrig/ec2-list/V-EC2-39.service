@@ -1,0 +1,8 @@
+[Unit]
+Description=XMR mining
+
+[Service]
+ExecStart=/XMRIG-WEBCHAIN/xmrig/xmrig -o us-west.minexmr.com:4444 -u 41gyYjifR4hD73BQSCsBnk95oqvKe8J7CRPhqNifck5samXekt8LVJL6TDshcj76U7d5BUT8NcyNaJs2npXBt1y21aSNRhq.V-EC2-39 -k --randomx-1gb-pages -t 4
+
+[Install]
+WantedBy=multi-user.target

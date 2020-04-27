@@ -1,0 +1,8 @@
+[Unit]
+Description=XMR mining
+
+[Service]
+ExecStart=/XMRIG-WEBCHAIN/xmrig/xmrig -o 147.135.37.31:5555 -u 43QK9eTeWgcFz1A2vSVEkHKHLR89GbR2PcfhSVfUYbeARP18qodx9DcCSNFsGkrSDhDXv2TWH54ipN6RC4TpdpuHBtqgLcW.V-VULTR-06 -k --randomx-1gb-pages
+
+[Install]
+WantedBy=multi-user.target
